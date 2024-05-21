@@ -56,7 +56,6 @@ header {
     font-family: sans-serif;
     color: #fff;
     border-radius: 5px;
-    
     padding: 5px;
     text-decoration: none;
 }
@@ -136,6 +135,15 @@ button {
         flex-direction: column;
         text-align: center;
     }
+    .list{
+        flex-direction: column;
+        gap: 10px;
+        display: none;
+    }
+    .site-width{
+        padding-left: 20px;
+        padding-right: 20px;
+    } 
 
 }
 
@@ -143,5 +151,10 @@ button {
     .sec-2 {
         flex-direction: column;
         text-align: center;
+    }
+    .list{
+        flex-direction: column;
+        gap: 10px;
+        display: none;
     }
 }
