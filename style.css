@@ -8,7 +8,11 @@ body {
     background-color: #000;
 }
 
-
+header {
+    padding: 20px 0;
+    position: absolute;
+    z-index: 999;
+}
 .site-width {
     max-width: 1440px;
     padding-left: 135px;
@@ -38,8 +42,6 @@ body {
 }
 
 .sec-1 {
-    padding-top: 20px;
-    padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
