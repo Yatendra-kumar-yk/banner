@@ -12,6 +12,7 @@ header {
     padding: 20px 0;
     position: absolute;
     z-index: 999;
+    width:100%;
 }
 .site-width {
     max-width: 1440px;
