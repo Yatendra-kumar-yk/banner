@@ -14,24 +14,24 @@ header {
     z-index: 999;
     width: 100%;
 }
+
 .site-width {
     max-width: 1440px;
     padding-left: 135px;
     padding-right: 135px;
-    margin:auto;
-   
+    margin: auto;
+
 }
-.banner-bg{
+
+.banner-bg {
     background-image: url(banner-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    
-
-
 }
-.overlay{
+
+.overlay {
     position: absolute;
     top: 0;
     right: 0;
@@ -39,17 +39,36 @@ header {
     bottom: 0;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
 }
+
 .sec-1 img {
     width: 120px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.list a {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #fff;
+    border-radius: 5px;
+    
+    padding: 5px;
+    text-decoration: none;
 }
 
 .sec-1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
-
+.sec-1 a {
+    cursor: pointer;
+}
 
 .sec-2 {
     display: flex;
@@ -57,11 +76,12 @@ header {
     align-items: center;
     justify-content: center;
     color: #fff;
-    padding: 14rem 0;
+    padding: 16rem 0;
     z-index: 9999;
     position: relative;
-
+    top: 60px;
 }
+
 
 h2 {
     font-weight: 600;
@@ -84,29 +104,42 @@ p {
 }
 
 button {
-    background-color: red;
-    color: #fff;
     font-size: 16px;
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
 }
-@media (max-width:768px){
+.btn-1{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.073);
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn-red{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
     .sec-1 {
         flex-direction: column;
         gap: 15px;
     }
-    .btn{
+
+    .btn {
         flex-direction: column;
         gap: 15px;
     }
+
     .sec-2 {
         flex-direction: column;
         text-align: center;
     }
-    
+
 }
-@media (max-width:992px){
+
+@media (max-width:992px) {
     .sec-2 {
         flex-direction: column;
         text-align: center;
