@@ -12,7 +12,7 @@ header {
     padding: 20px 0;
     position: absolute;
     z-index: 999;
-    width:100%;
+    width: 100%;
 }
 .site-width {
     max-width: 1440px;
@@ -89,4 +89,25 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
+}
+@media (max-width:768px){
+    .sec-1 {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .btn{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .sec-2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+@media (max-width:992px){
+    .sec-2 {
+        flex-direction: column;
+        text-align: center;
+    }
 }
